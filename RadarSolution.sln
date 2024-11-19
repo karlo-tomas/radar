@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadarLibrary", "RadarLibrary\RadarLibrary.csproj", "{AF4F046C-2C8E-4D1F-BB0F-3CB820A95A0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadarApplication", "RadarApplication\RadarApplication.csproj", "{A2418088-8DA3-4703-97DB-4C8632B235AD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AF4F046C-2C8E-4D1F-BB0F-3CB820A95A0F} = {AF4F046C-2C8E-4D1F-BB0F-3CB820A95A0F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF4F046C-2C8E-4D1F-BB0F-3CB820A95A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF4F046C-2C8E-4D1F-BB0F-3CB820A95A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF4F046C-2C8E-4D1F-BB0F-3CB820A95A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF4F046C-2C8E-4D1F-BB0F-3CB820A95A0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2418088-8DA3-4703-97DB-4C8632B235AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2418088-8DA3-4703-97DB-4C8632B235AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2418088-8DA3-4703-97DB-4C8632B235AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2418088-8DA3-4703-97DB-4C8632B235AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E10CB312-7893-4E92-8F7C-F03E09814616}
+	EndGlobalSection
+EndGlobal
